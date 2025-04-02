@@ -1,0 +1,46 @@
+
+
+header, footer {
+    background-color:  darkorange;
+    padding: 40px 0;
+    text-align: center;
+}
+
+
+h1, h2 {
+    text-transform: uppercase;
+    line-height: normal;
+}
+
+header, footer, main {
+    max-width: 1024px;
+    margin: auto;
+}
+
+article, p {
+    text-align: justify;
+    hyphens: auto;
+}
+
+footer {
+    padding: 20px 0;
+
+}
+
+main {
+    padding: 20px;
+}
+
+
+@media screen and (min-width: 600px) {
+
+    main {
+        display: flex;
+        gap: 40px;
+    }
+    article{
+        width: calc(50% - 10px);
+    }
+
+    
+}
